@@ -1,0 +1,29 @@
+name: sorta_frontend
+description: Empty Flutter project scaffold.
+publish_to: "none"
+
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.10.4 <4.0.0"
+  flutter: ">=3.35.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^10.0.0-beta.4
+  http: ^1.6.0
+  http_parser: ^4.1.2
+  liquid_glass_renderer: ^0.2.0-dev.4
+  photo_manager: ^3.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sorta-logo.png
+    - lib/assets/sorta-logo.png
